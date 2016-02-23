@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class md.your.assignment.api.PhrasesMatcherControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class md.your.assignment.api.PhrasesMatcherControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/md.your.assignment.api.html">md.your.assignment.api</a> &gt; PhrasesMatcherControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.662s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">when_NoInputPassed_Then_ReturnBadRequest</td>
+<td>0.543s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">when_SentenceWithExistingPhrases_Then_ReturnMatchingPhrases</td>
+<td>0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">when_SentenceWithNoneFoundedPhrasesIsPassed_Then_ReturnNoMatches</td>
+<td>0.095s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>11:16:07.068 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class md.your.assignment.api.PhrasesMatcherControllerTest]
+11:16:07.096 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:16:07.107 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:16:07.118 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [md.your.assignment.api.PhrasesMatcherControllerTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+11:16:07.138 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@370a537f declaringClass = 'md.your.assignment.api.PhrasesMatcherControllerTest', classes = '{class md.your.assignment.App}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+11:16:07.146 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [md.your.assignment.api.PhrasesMatcherControllerTest]: class path resource [md/your/assignment/api/PhrasesMatcherControllerTest-context.xml] does not exist
+11:16:07.146 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [md.your.assignment.api.PhrasesMatcherControllerTest]: class path resource [md/your/assignment/api/PhrasesMatcherControllerTestContext.groovy] does not exist
+11:16:07.146 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [md.your.assignment.api.PhrasesMatcherControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:16:07.149 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [md.your.assignment.api.PhrasesMatcherControllerTest]
+11:16:07.152 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [md.your.assignment.api.PhrasesMatcherControllerTest]: using defaults.
+11:16:07.159 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+11:16:07.167 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+11:16:07.168 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+11:16:07.172 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@34f24816, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6fff72a7, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@529306f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@63f1e68f]
+11:16:07.177 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [md.your.assignment.api.PhrasesMatcherControllerTest]
+11:16:07.178 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [md.your.assignment.api.PhrasesMatcherControllerTest]
+11:16:07.182 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [md.your.assignment.api.PhrasesMatcherControllerTest]
+11:16:07.182 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [md.your.assignment.api.PhrasesMatcherControllerTest]
+11:16:07.183 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [md.your.assignment.api.PhrasesMatcherControllerTest]
+11:16:07.183 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [md.your.assignment.api.PhrasesMatcherControllerTest]
+11:16:07.190 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@74600fb2 testClass = PhrasesMatcherControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@378aa8ba testClass = PhrasesMatcherControllerTest, locations = '{}', classes = '{class md.your.assignment.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+11:16:07.191 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [md.your.assignment.api.PhrasesMatcherControllerTest]
+11:16:07.191 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [md.your.assignment.api.PhrasesMatcherControllerTest]
+11:16:07.194 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@74600fb2 testClass = PhrasesMatcherControllerTest, testInstance = md.your.assignment.api.PhrasesMatcherControllerTest@7e7958e6, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@378aa8ba testClass = PhrasesMatcherControllerTest, locations = '{}', classes = '{class md.your.assignment.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+11:16:07.280 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+11:16:07.283 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:16:07.284 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+11:16:07.287 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.2.RELEASE)
+
+2016-02-23 11:16:07.602  INFO 50328 --- [    Test worker] m.y.a.api.PhrasesMatcherControllerTest   : Starting PhrasesMatcherControllerTest on martinborisov with PID 50328 (D:\Workspace\PhraseMatcher\build\classes\test started by martin.borisov in D:\Workspace\PhraseMatcher)
+2016-02-23 11:16:07.603  INFO 50328 --- [    Test worker] m.y.a.api.PhrasesMatcherControllerTest   : No active profile set, falling back to default profiles: default
+2016-02-23 11:16:07.640  INFO 50328 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7a8c3434: startup date [Tue Feb 23 11:16:07 EET 2016]; root of context hierarchy
+Some error occurs while reading dictionary file. class path resource [phrases] cannot be resolved to URL because it does not exist
+2016-02-23 11:16:08.965  INFO 50328 --- [    Test worker] m.y.a.api.PhrasesMatcherControllerTest   : Started PhrasesMatcherControllerTest in 1.674 seconds (JVM running for 2.91)
+2016-02-23 11:16:09.264  INFO 50328 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/api/phrases/match]}&quot; onto public java.util.Set&lt;java.lang.String&gt; md.your.assignment.api.PhrasesMatcherController.getMatchedPhrases(java.lang.String)
+2016-02-23 11:16:09.295  INFO 50328 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@28d47238
+2016-02-23 11:16:09.359  INFO 50328 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-02-23 11:16:09.360  INFO 50328 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-02-23 11:16:09.363  INFO 50328 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 3 ms
+2016-02-23 11:16:09.518  INFO 50328 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/api/phrases/match]}&quot; onto public java.util.Set&lt;java.lang.String&gt; md.your.assignment.api.PhrasesMatcherController.getMatchedPhrases(java.lang.String)
+2016-02-23 11:16:09.535  INFO 50328 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@325e9855
+2016-02-23 11:16:09.541  INFO 50328 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-02-23 11:16:09.541  INFO 50328 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-02-23 11:16:09.541  INFO 50328 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+2016-02-23 11:16:09.612  INFO 50328 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/api/phrases/match]}&quot; onto public java.util.Set&lt;java.lang.String&gt; md.your.assignment.api.PhrasesMatcherController.getMatchedPhrases(java.lang.String)
+2016-02-23 11:16:09.622  INFO 50328 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@2a97b939
+2016-02-23 11:16:09.626  INFO 50328 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-02-23 11:16:09.626  INFO 50328 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-02-23 11:16:09.627  INFO 50328 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 2.2</a> at 23-Feb-2016 11:16:09</p>
+</div>
+</div>
+</body>

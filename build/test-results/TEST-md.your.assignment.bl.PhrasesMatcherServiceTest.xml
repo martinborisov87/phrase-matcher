@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="md.your.assignment.bl.PhrasesMatcherServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-02-23T09:16:09" hostname="martinborisov" time="0.016">
+  <properties/>
+  <testcase name="when_SentenceWithFoundedPhrasesWhichContainsSymbols_Then_ReturnMatchingPhrases" classname="md.your.assignment.bl.PhrasesMatcherServiceTest" time="0.006"/>
+  <testcase name="when_JustAnExistingPhraseIsPassed_Then_ReturnIt" classname="md.your.assignment.bl.PhrasesMatcherServiceTest" time="0.0"/>
+  <testcase name="when_SentenceWithFoundedPhrasesIsPassed_Then_ReturnMatchingPhrases" classname="md.your.assignment.bl.PhrasesMatcherServiceTest" time="0.003"/>
+  <testcase name="when_SentenceWithNoneFoundedPhrasesIsPassed_Then_ReturnNoMatches" classname="md.your.assignment.bl.PhrasesMatcherServiceTest" time="0.0"/>
+  <testcase name="when_MatchingPhraseIsAtTheBeginning_Then_ReturnsItProperly" classname="md.your.assignment.bl.PhrasesMatcherServiceTest" time="0.001"/>
+  <testcase name="when_OnlySymbolsArePassed_Then_ReturnNoMatches" classname="md.your.assignment.bl.PhrasesMatcherServiceTest" time="0.0"/>
+  <testcase name="when_MatchingPhraseIsAtTheEnd_Then_ReturnsItProperly" classname="md.your.assignment.bl.PhrasesMatcherServiceTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
